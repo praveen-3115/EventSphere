@@ -12,6 +12,7 @@ import {
   FaSearch,
 } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../Styles/Home.css";
 import { Link } from "react-router-dom";
 import { useAuth } from "../Authentication/AuthContext";
