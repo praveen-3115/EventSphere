@@ -1,0 +1,63 @@
+
+.booking-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.booking-back-link {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.booking-form-card,
+.booking-summary-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.booking-form-card {
+  padding: 32px;
+}
+
+.booking-form-card h2 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.booking-form-card .form-control,
+.booking-form-card .form-select {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.booking-form-card .form-control:focus,
+.booking-form-card .form-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.12);
+}
+
+.booking-submit-btn {
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.booking-event-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.booking-summary-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .booking-form-card {
+    padding: 22px;
+  }
+}

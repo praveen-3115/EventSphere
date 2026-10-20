@@ -1,0 +1,127 @@
+
+.explore-page {
+  min-height: 100vh;
+  background: #f8f9fc;
+}
+
+.explore-hero {
+  padding: 55px 0;
+  background: linear-gradient(120deg, #f0ecff, #eaf2ff);
+}
+
+.explore-label {
+  color: #7555e8;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.explore-hero h1 {
+  font-size: clamp(2.3rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: #24213d;
+  margin: 12px 0;
+}
+
+.explore-hero p {
+  color: #6c6b80;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+}
+
+.filter-card {
+  border: 1px solid #ececf3;
+  border-radius: 15px;
+  position: sticky;
+  top: 90px;
+}
+
+.filter-card .form-control:focus,
+.filter-card .form-select:focus {
+  border-color: #7555e8;
+  box-shadow: 0 0 0 0.2rem #7555e825;
+}
+
+.filter-card .input-group-text {
+  background: #f5f2ff;
+  color: #7555e8;
+}
+
+.explore-event-card {
+  border: 1px solid #ececf3;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.explore-event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px #24213d15;
+}
+
+.explore-event-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.category-badge {
+  color: #6845d5;
+  background: #f0eaff;
+  padding: 7px 11px;
+  border-radius: 20px;
+}
+
+.explore-event-card .card-title {
+  color: #24213d;
+  font-size: 1.1rem;
+}
+
+.event-meta {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #737387;
+  font-size: 0.86rem;
+}
+
+.event-meta svg {
+  color: #7555e8;
+  flex-shrink: 0;
+}
+
+.event-price {
+  color: #7555e8;
+}
+
+.explore-btn {
+  background: #7555e8;
+  border-color: #7555e8;
+  font-size: 0.82rem;
+  padding: 9px 12px;
+}
+
+.explore-btn:hover {
+  background: #5d3dc9;
+  border-color: #5d3dc9;
+}
+
+.no-events {
+  background: white;
+  border: 1px dashed #d8d5e8;
+  border-radius: 15px;
+}
+
+.no-events .btn {
+  background: #7555e8;
+  border-color: #7555e8;
+}
+
+@media (max-width: 991px) {
+  .filter-card {
+    position: static;
+  }
+
+  .explore-hero {
+    padding: 40px 0;
+  }
+}
